@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    min-height: 5vh;
+}
+
+
+
+
+
+
+/**foto do background**/
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../imagem/best-food-delivery-apps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../imagem/best-food-delivery-apps.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+  /**registo e login**/
+  .form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+   
+  }
+  .form-container form{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0,0,0,1);
+    text-align: center;
+    width: 300px;
+  }
+  .form-container form h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color:orange;
+  }
+  .form-container form input,
+  .form-container form select{
+    width: 100%;
+    padding: 8px 1px;
+    font-size: 17px;
+    margin: 8px 0;
+    background:rgb(110, 75, 8);
+    border-radius: 5px;
+  }
+  .form-container form select option{
+    background: #fff;
+  }
+  
+  .form-container form .form-btn{
+    background: orange;
+    color: black;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .form-container form .form-btn:hover{
+    background:rgb(110, 75, 8);
+  }
+  .form-container form p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: orange;
+  }
+  .form-container form p a{
+  color: #ffffff;
+  }
+  .form-container form .error-msg{
+    margin: 10px 0;
+    display: block;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;}
